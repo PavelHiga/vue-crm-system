@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #5393ff;
+  --alert-color: #fe675c;
+  --success-color: #1ca425;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border: none;
+  background-color: inherit;
+  font-size: inherit;
+  outline: none;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  color: white;
+  border-radius: 7px;
+}
+
+body {
+  min-height: 100vh;
+  color: #9a9c9d;
+  background: #ffffff;
+  line-height: 1.5;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
