@@ -15,15 +15,6 @@ export default defineConfig(({ mode }) => {
       alias: {
         '@': fileURLToPath(new URL('./src', import.meta.url))
       }
-    },
-    server: {
-      proxy: {
-        '/backend': {
-          target: env.VITE_API_BASE_URL,
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/backend/, '')
-        }
-      }
     }
   }
 })

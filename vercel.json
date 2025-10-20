@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/backend/(.*)",
-      "destination": "${VITE_API_BASE_URL}/$1"
-    }
-  ]
-}

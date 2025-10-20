@@ -3,7 +3,7 @@ import axios, { type InternalAxiosRequestConfig } from 'axios';
 import { accessToken } from './auth';
 
 export const axiosInstance = axios.create({
-  baseURL: '/backend',
+  baseURL: 'https://easydev.club/api/v2/',
 });
 
 axiosInstance.interceptors.request.use((config: InternalAxiosRequestConfig) => {
